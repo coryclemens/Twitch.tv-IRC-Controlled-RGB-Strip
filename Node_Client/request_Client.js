@@ -13,7 +13,7 @@ const http = require('http');
 
 var options = {
     'method': 'POST',
-    'hostname': 'arduino.local',
+    'hostname': '',  // Insert local IP of Arduino Yun here for request URI
     'path': '',
     'headers': {
     },
