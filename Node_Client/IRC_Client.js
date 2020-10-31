@@ -1,7 +1,4 @@
-// gf2p0xriw0uru5nbljqvakrmpoy0ac
-
-
-/// AUTHOR : NULL CORD
+/// AUTHOR : Cory Clemens
 /// DATE   : 08 / 13 / 2020
 /// DESC.  : The Twitch IRC client. Used for making
 ///          a socket connection to irc.chat.twitch.ttv
