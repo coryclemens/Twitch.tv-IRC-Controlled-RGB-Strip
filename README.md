@@ -7,7 +7,7 @@ These interactions usually happen with the help of **chat bots**; this is exactl
 **In summary, the project is this:** 
 + Allow chatters of a particular streamer enter color commands in the IRC protocol chat server (!red, !blue, !party, etc.)
 + My bot (made from base Node.js - no npm packages) will use socket connections to create a TCP connection to the IRC server (which is an application layer protocol), and intercept these messages from chat, placing them in a custom queue.
-+ This client (Node.js bot) will then make POST requsts to an API I set up on an Arduino Yun, which will handle these requests, and change the RGB strip color.
++ This client (Node.js bot) will then make POST requests to the API I set up on an Arduino Yun, which will handle these requests, and change the RGB strip color.
 
 ## Demonstration
 In this first gif, we can see the starting of the local Node client (chat bot), and see the initial errors thrown due to the inital IRC connection messages (which are not formatted similar to a regular message in the chat server).
@@ -18,6 +18,18 @@ Next, we type a command in the Twitch chat, !blue. You can see the object that t
 
 ![Gif_2](https://github.com/coryclemens/Twitch.tv-IRC-Controlled-RGB-Strip/blob/master/README_imgs/2.gif)
 
-Now lets fill the queue with a few commands
+Now lets fill the queue with a few commands...
 
 ![Gif_3](https://github.com/coryclemens/Twitch.tv-IRC-Controlled-RGB-Strip/blob/master/README_imgs/3.gif)
+
+Party mode request activated.
+
+![Gif_4](https://github.com/coryclemens/Twitch.tv-IRC-Controlled-RGB-Strip/blob/master/README_imgs/4.gif)
+
+Now for red..
+
+![Gif_5](https://github.com/coryclemens/Twitch.tv-IRC-Controlled-RGB-Strip/blob/master/README_imgs/5.gif)
+
+And blue again! We can also see the bot exiting upon killing the main node process.
+
+![Gif_6](https://github.com/coryclemens/Twitch.tv-IRC-Controlled-RGB-Strip/blob/master/README_imgs/6.gif)
