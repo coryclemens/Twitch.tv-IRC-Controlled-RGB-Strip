@@ -1,4 +1,4 @@
-/// AUTHOR : NULL CORD
+/// AUTHOR : Cory Clemens
 /// DATE   : 08 / 13 / 2020
 /// DESC.  : The main process; forks two child processes and
 ///          orchestrates the communication of all data coming
