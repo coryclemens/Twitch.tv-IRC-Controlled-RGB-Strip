@@ -21,3 +21,15 @@ Next, we type a command in the Twitch chat, !blue. You can see the object that t
 Now lets fill the queue with a few commands...
 
 ![Gif_3](https://github.com/coryclemens/Twitch.tv-IRC-Controlled-RGB-Strip/blob/master/README_imgs/3.gif)
+
+Party mode request activated.
+
+![Gif_4](https://github.com/coryclemens/Twitch.tv-IRC-Controlled-RGB-Strip/blob/master/README_imgs/4.gif)
+
+Now for red..
+
+![Gif_5](https://github.com/coryclemens/Twitch.tv-IRC-Controlled-RGB-Strip/blob/master/README_imgs/5.gif)
+
+And blue again! We can also see the bot exiting upon killing the main node process.
+
+![Gif_6](https://github.com/coryclemens/Twitch.tv-IRC-Controlled-RGB-Strip/blob/master/README_imgs/6.gif)
