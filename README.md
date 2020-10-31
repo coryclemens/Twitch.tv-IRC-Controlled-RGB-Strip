@@ -18,6 +18,6 @@ Next, we type a command in the Twitch chat, !blue. You can see the object that t
 
 ![Gif_2](https://github.com/coryclemens/Twitch.tv-IRC-Controlled-RGB-Strip/blob/master/README_imgs/2.gif)
 
-Now lets fill the queue with a few commands
+Now lets fill the queue with a few commands...
 
 ![Gif_3](https://github.com/coryclemens/Twitch.tv-IRC-Controlled-RGB-Strip/blob/master/README_imgs/3.gif)
